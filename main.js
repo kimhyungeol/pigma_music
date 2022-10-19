@@ -25,6 +25,6 @@ app.use(function(request,response, next){
 
 app.use(function(err,request,response, next){
   console.error(err.stack);
-  response.status(500).send('somting broken');
+  response.status(500).send('somtindddg broken');
 })
 app.listen(3000, () => console.log('Example app listening on port 3000!'))
